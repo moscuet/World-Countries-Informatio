@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>country</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- this is master branch -->
+    <div id="wrapper">
+        <div id="main_container">
+            <header>
+        
+                <div id="button_container">
+                    <button class="_darkorange" id="with_name" class="btn">Name</button>
+                    <button class="_darkorange"id="with_capital"> Capital</button>
+                    <button class="_darkorange"id="with_language">Language</button>
+                </div>
+        
+                <div id="search_container">       
+                        <input type="text" id="search" placeholder="Type to search country, capita & language" />
+                </div> 
+                <div id=count_container>
+                    <p id="count_search_result"> number of search result displayed:</p>
+                </div>
+                    
+                
+        
+            </header>
+               
+            <div id="display_container"></div>
+            <div id="barChart" style='width:100%; height: 500px; border: 2px solid whitesmoke;' ></div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.anychart.com/releases/8.0.0/js/anychart-base.min.js"></script>
+
+    <script src="countries_name.js"></script>
+    <script src="countries_info.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
